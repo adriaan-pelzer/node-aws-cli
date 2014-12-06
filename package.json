@@ -8,6 +8,10 @@
   },
   "author": "Adriaan Pelzer",
   "license": "BSD-2-Clause",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/adriaan-pelzer/node-aws-cli"
+  },
   "dependencies": {
     "lodash": "~2.4.1",
     "aws-sdk": "~2.0.30",
