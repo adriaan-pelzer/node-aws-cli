@@ -8,3 +8,7 @@ It simply wraps the [AWS node SDK](http://docs.aws.amazon.com/AWSJavaScriptSDK/l
 ```
 node aws.js <ClassName> <commandName> --argName1 argValue1 --argName2 argValue2 ...
 ```
+for example:
+```
+node aws.js S3 listObjects --Bucket mySpecialBucket
+```
