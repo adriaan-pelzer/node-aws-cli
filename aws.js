@@ -5,7 +5,7 @@ var _ = require ( 'lodash' );
 var inspect = require ( 'eyes' ).inspector ( { maxLength: 0 } );
 var args = require ( 'minimist' )( process.argv );
 var plainArgs = _.reject ( args._, function ( arg ) {
-    return ( arg.match ( 'node' ) || arg.match ( '.js' ) );
+    return ( arg.match ( 'node' ) || arg.match ( '.js' ) || arg.match ( '/bin/' ) );
 } );
 var awsServiceName = _.first ( plainArgs );
 var awsCmdName = _.first ( _.rest ( plainArgs ) );
