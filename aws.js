@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var aws = require ( 'aws-sdk' );
 var _ = require ( 'lodash' );
 var inspect = require ( 'eyes' ).inspector ( { maxLength: 0 } );
