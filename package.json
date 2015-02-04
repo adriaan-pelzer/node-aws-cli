@@ -1,6 +1,6 @@
 {
   "name": "node-aws-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "AWS CLI in Node.js",
   "main": "aws.js",
   "preferGlobal": "true",
