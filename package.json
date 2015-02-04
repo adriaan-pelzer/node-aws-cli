@@ -3,19 +3,24 @@
   "version": "0.0.1",
   "description": "AWS CLI in Node.js",
   "main": "aws.js",
+  "preferGlobal": "true",
+  "bin": {
+    "aws-cli": "aws.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adriaan Pelzer",
   "license": "BSD-2-Clause",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/adriaan-pelzer/node-aws-cli"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adriaan-pelzer/node-aws-cli"
   },
   "dependencies": {
     "lodash": "~2.4.1",
     "aws-sdk": "~2.0.30",
     "minimist": "~1.1.0",
-    "config": "~1.8.1"
+    "config": "~1.8.1",
+    "eyes": "~0.1.8"
   }
 }

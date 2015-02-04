@@ -1,14 +1,7 @@
-node-aws-cli
-============
+Usage: aws-cli <service> <command> <options>
+Make a call to the AWS API
 
-A CLI wrapper around the AWS node SDK
-
-It simply wraps the [AWS node SDK](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/index.html), and gets invoked as such:
-
-```
-node aws.js <ClassName> <commandName> --argName1 argValue1 --argName2 argValue2 ...
-```
-for example:
-```
-node aws.js S3 listObjects --Bucket mySpecialBucket
-```
+AWS credentials should be configured in ~/.aws/credentials as such:
+    [default]
+    aws_access_key_id = ACCESS_KEY_ID
+    aws_secret_access_key = SECRET_ACCESS_KEY
